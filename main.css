@@ -1,8 +1,9 @@
 nav{
-    background-color: aqua;
+    background-color:  rgb(255, 123, 0);
     position: fixed;
     top: 0px;
     width: 100vw;
+    border:2px inset yellow;
 }
 
 nav ul li{
@@ -17,18 +18,28 @@ nav ul{
 }
 
 .signup {
-    margin-top: 200px;
-    margin-left: 400px;
-    margin-right: 400px;
+   width: 25%;
+   margin: auto;
+   margin-top: 100px;
+   border: 2px solid yellow;
     text-align: center;
+    background-color: white;
 }
 
 body{
-    background-color: black;
-    color: yellow;
+    background-color: rgb(122, 119, 255);
+    color: rgb(255, 123, 0);
+    margin: 0;
 }
 
 button{
     font-weight: bold;
     text-align: center;
+    background-color: yellow;
+}
+
+li{
+    background-color: rgb(223, 215, 215);
+    border: inset rgb(122, 119, 255);
+    padding: 2px 2px 2px 2px;
 }
